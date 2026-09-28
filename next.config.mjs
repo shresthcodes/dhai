@@ -5,6 +5,13 @@ const nextConfig = {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [],
   },
+  transpilePackages: [
+    "three",
+    "@react-three/fiber",
+    "@react-three/drei",
+    "@react-three/postprocessing",
+    "postprocessing",
+  ],
   experimental: {
     optimizePackageImports: ["lucide-react", "framer-motion"],
   },
