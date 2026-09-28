@@ -1,0 +1,9 @@
+# DHAI — Digital Heritage Archive & Intelligence
+# Prototype for Smart India Hackathon 2026
+# Not indexed by default (set NEXT_PUBLIC_ALLOW_INDEXING=true to enable)
+User-agent: *
+Disallow: /
+
+User-agent: *
+Disallow: /admin
+Disallow: /admin/

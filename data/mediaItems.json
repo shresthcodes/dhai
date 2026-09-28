@@ -1,0 +1,269 @@
+[
+  {
+    "id": "av-001",
+    "title": "Sample speech recording 01",
+    "kind": "speech",
+    "mediaType": "audio",
+    "src": null,
+    "poster": null,
+    "durationSec": 183,
+    "language": "en",
+    "collection": "Demo Audio Collection A",
+    "source": "Demo source — not verified",
+    "rights": { "status": "demo", "note": "Placeholder media — demo content only. Verified rights-cleared recording to be added." },
+    "summary": "This is a neutral placeholder record for a speech audio recording. The content and metadata will be replaced with verified archival material.",
+    "keywords": ["speech", "audio", "archive", "demonstration", "placeholder"],
+    "date": null,
+    "isDemo": true,
+    "transcript": [
+      { "startSec": 0,   "endSec": 12,  "text": "This is sample transcript text for demonstrating synchronized reading and playback features." },
+      { "startSec": 12,  "endSec": 28,  "text": "The archive system links transcript lines to their corresponding audio segments." },
+      { "startSec": 28,  "endSec": 44,  "text": "Each line can be clicked to seek the player to that moment in the recording." },
+      { "startSec": 44,  "endSec": 60,  "text": "This placeholder paragraph represents archival speech content awaiting verification." },
+      { "startSec": 60,  "endSec": 80,  "text": "The system supports multiple languages and synchronized translation display." },
+      { "startSec": 80,  "endSec": 100, "text": "Related documents, photographs and writings are linked to this media record." },
+      { "startSec": 100, "endSec": 120, "text": "Accessibility features include captions, transcript export and audio descriptions." },
+      { "startSec": 120, "endSec": 145, "text": "The rights and provenance of this recording are clearly labelled as demo content." },
+      { "startSec": 145, "endSec": 165, "text": "Verified archival audio will replace this placeholder when content is cleared." },
+      { "startSec": 165, "endSec": 183, "text": "End of sample speech recording transcript. Demonstration content only." }
+    ],
+    "translations": {
+      "hi": [
+        { "startSec": 0,   "endSec": 12,  "text": "यह सिंक्रनाइज़ पठन और प्लेबैक सुविधाओं का प्रदर्शन करने के लिए नमूना ट्रांसक्रिप्ट पाठ है।" },
+        { "startSec": 12,  "endSec": 28,  "text": "अभिलेखागार प्रणाली ट्रांसक्रिप्ट लाइनों को उनके संबंधित ऑडियो खंडों से जोड़ती है।" },
+        { "startSec": 28,  "endSec": 44,  "text": "प्रत्येक पंक्ति पर क्लिक करके प्लेयर को उस स्थान पर सीक किया जा सकता है।" },
+        { "startSec": 44,  "endSec": 183, "text": "यह प्लेसहोल्डर सामग्री है। सत्यापित अभिलेखीय सामग्री बाद में जोड़ी जाएगी।" }
+      ],
+      "gu": [
+        { "startSec": 0,   "endSec": 12,  "text": "આ સિંક્રોનાઇઝ્ડ વાંચન અને પ્લેબૅક સુવિધાઓ દર્શાવવા માટેનો નમૂના ટ્રાન્સક્રિપ્ટ ટેક્સ્ટ છે।" },
+        { "startSec": 12,  "endSec": 44,  "text": "આર્કાઇવ સિસ્ટમ ટ્રાન્સક્રિપ્ટ લાઇનોને સંબંધિત ઑડિઓ સેગ્મેન્ટ સાથે જોડે છે।" },
+        { "startSec": 44,  "endSec": 183, "text": "આ પ્લેસહોલ્ડર સામગ્રી છે. ચકાસાયેલ આર્કાઇવ સામગ્રી પછીથી ઉમેરવામાં આવશે।" }
+      ]
+    },
+    "chapters": [
+      { "startSec": 0,   "title": "Introduction" },
+      { "startSec": 60,  "title": "Main content" },
+      { "startSec": 145, "title": "Conclusion" }
+    ],
+    "related": { "documents": ["doc-004"], "photographs": [], "writings": ["doc-001"] },
+    "accessibility": { "captions": true, "audioDescription": false }
+  },
+  {
+    "id": "av-002",
+    "title": "Sample speech recording 02",
+    "kind": "speech",
+    "mediaType": "audio",
+    "src": null,
+    "poster": null,
+    "durationSec": 247,
+    "language": "hi",
+    "collection": "Demo Audio Collection B",
+    "source": "Demo source — not verified",
+    "rights": { "status": "demo", "note": "Placeholder media — demo content only." },
+    "summary": "यह एक भाषण ऑडियो रिकॉर्डिंग के लिए एक तटस्थ प्लेसहोल्डर रिकॉर्ड है।",
+    "keywords": ["speech", "hindi", "archive", "audio", "placeholder"],
+    "date": null,
+    "isDemo": true,
+    "transcript": [
+      { "startSec": 0,   "endSec": 20,  "text": "यह सिंक्रनाइज़ पठन के प्रदर्शन के लिए नमूना ट्रांसक्रिप्ट पाठ है।" },
+      { "startSec": 20,  "endSec": 50,  "text": "अभिलेखागार प्रणाली ट्रांसक्रिप्ट लाइनों को ऑडियो से जोड़ती है।" },
+      { "startSec": 50,  "endSec": 90,  "text": "यह प्लेसहोल्डर सामग्री है। सत्यापित सामग्री बाद में जोड़ी जाएगी।" },
+      { "startSec": 90,  "endSec": 150, "text": "अभिलेखीय सामग्री तक पहुंच सभी के लिए खुली होनी चाहिए।" },
+      { "startSec": 150, "endSec": 247, "text": "नमूना भाषण रिकॉर्डिंग का अंत। केवल प्रदर्शन सामग्री।" }
+    ],
+    "chapters": [
+      { "startSec": 0,   "title": "प्रस्तावना" },
+      { "startSec": 90,  "title": "मुख्य विषय" },
+      { "startSec": 200, "title": "समापन" }
+    ],
+    "related": { "documents": ["doc-005"], "photographs": [], "writings": ["doc-002"] },
+    "accessibility": { "captions": true, "audioDescription": false }
+  },
+  {
+    "id": "av-003",
+    "title": "Sample lecture recording 01",
+    "kind": "lecture",
+    "mediaType": "video",
+    "src": null,
+    "poster": null,
+    "durationSec": 3240,
+    "language": "en",
+    "collection": "Demo Video Collection A",
+    "source": "Demo source — not verified",
+    "rights": { "status": "demo", "note": "Placeholder video — demo content only. Verified rights-cleared footage to be added." },
+    "summary": "This is a neutral placeholder record for a lecture video. Verified archival content will replace this.",
+    "keywords": ["lecture", "video", "education", "archive", "placeholder"],
+    "date": null,
+    "isDemo": true,
+    "transcript": [
+      { "startSec": 0,    "endSec": 30,   "text": "This is sample transcript text for demonstrating synchronized reading of a lecture recording." },
+      { "startSec": 30,   "endSec": 90,   "text": "The lecture archive system provides access to educational content from verified sources." },
+      { "startSec": 90,   "endSec": 180,  "text": "Each section of the lecture is indexed and linked to related archival documents." },
+      { "startSec": 180,  "endSec": 360,  "text": "Translation support enables access to lecture content across multiple languages." },
+      { "startSec": 360,  "endSec": 600,  "text": "This placeholder segment represents substantive lecture content awaiting verified material." },
+      { "startSec": 600,  "endSec": 900,  "text": "The system supports chapter navigation for longer recordings." },
+      { "startSec": 900,  "endSec": 1200, "text": "Related documents and writings are linked from the lecture record." },
+      { "startSec": 1200, "endSec": 3240, "text": "Remaining content placeholder. Verified lecture material will replace this section." }
+    ],
+    "chapters": [
+      { "startSec": 0,    "title": "Introduction" },
+      { "startSec": 360,  "title": "Part I — Context" },
+      { "startSec": 900,  "title": "Part II — Main argument" },
+      { "startSec": 1800, "title": "Part III — Evidence" },
+      { "startSec": 2700, "title": "Conclusion" }
+    ],
+    "related": { "documents": ["doc-008"], "photographs": ["doc-010"], "writings": ["doc-001", "doc-003"] },
+    "accessibility": { "captions": true, "audioDescription": false }
+  },
+  {
+    "id": "av-004",
+    "title": "Sample lecture recording 02",
+    "kind": "lecture",
+    "mediaType": "video",
+    "src": null,
+    "poster": null,
+    "durationSec": 2100,
+    "language": "en",
+    "collection": "Demo Video Collection B",
+    "source": "Demo source — not verified",
+    "rights": { "status": "demo", "note": "Placeholder video — demo content only." },
+    "summary": "This is a neutral placeholder record for a second lecture video. Verified archival content will replace this.",
+    "keywords": ["lecture", "video", "scholarship", "archive", "placeholder"],
+    "date": null,
+    "isDemo": true,
+    "transcript": [
+      { "startSec": 0,    "endSec": 60,   "text": "Sample transcript for lecture recording two. This is placeholder demonstration content." },
+      { "startSec": 60,   "endSec": 300,  "text": "The archive digitisation programme preserves audio-visual materials for future access." },
+      { "startSec": 300,  "endSec": 900,  "text": "This section contains placeholder content representing the main body of the lecture." },
+      { "startSec": 900,  "endSec": 2100, "text": "Remaining placeholder content. Verified material will be added after rights clearance." }
+    ],
+    "chapters": [
+      { "startSec": 0,   "title": "Opening" },
+      { "startSec": 300, "title": "Main lecture" },
+      { "startSec": 1500,"title": "Questions" }
+    ],
+    "related": { "documents": ["doc-007"], "photographs": [], "writings": ["doc-002"] },
+    "accessibility": { "captions": false, "audioDescription": false }
+  },
+  {
+    "id": "av-005",
+    "title": "Sample documentary 01",
+    "kind": "documentary",
+    "mediaType": "video",
+    "src": null,
+    "poster": null,
+    "durationSec": 5400,
+    "language": "en",
+    "collection": "Demo Documentary Collection",
+    "source": "Demo source — not verified",
+    "rights": { "status": "demo", "note": "Placeholder documentary — demo content only. Rights-cleared footage to be added." },
+    "summary": "This is a neutral placeholder record for a documentary film. Verified archival content will replace this.",
+    "keywords": ["documentary", "video", "archive", "history", "placeholder"],
+    "date": null,
+    "isDemo": true,
+    "transcript": [
+      { "startSec": 0,    "endSec": 60,   "speaker": "Narrator", "text": "This is sample narrator text for a documentary transcript demonstration." },
+      { "startSec": 60,   "endSec": 180,  "speaker": "Narrator", "text": "The documentary archive preserves film records for scholarly research and public access." },
+      { "startSec": 180,  "endSec": 600,  "speaker": "Narrator", "text": "This section represents the introductory content of the documentary." },
+      { "startSec": 600,  "endSec": 1800, "speaker": "Narrator", "text": "Main documentary content placeholder. Verified narration to be added." },
+      { "startSec": 1800, "endSec": 5400, "speaker": "Narrator", "text": "Remaining content placeholder. Rights-cleared documentary footage to be added." }
+    ],
+    "chapters": [
+      { "startSec": 0,    "title": "Prologue" },
+      { "startSec": 600,  "title": "Chapter 1" },
+      { "startSec": 1800, "title": "Chapter 2" },
+      { "startSec": 3600, "title": "Chapter 3" },
+      { "startSec": 4800, "title": "Epilogue" }
+    ],
+    "related": { "documents": ["doc-008", "doc-009"], "photographs": ["doc-010", "doc-011"], "writings": ["doc-001"] },
+    "accessibility": { "captions": true, "audioDescription": true }
+  },
+  {
+    "id": "av-006",
+    "title": "Sample interview recording 01",
+    "kind": "interview",
+    "mediaType": "video",
+    "src": null,
+    "poster": null,
+    "durationSec": 1560,
+    "language": "en",
+    "collection": "Demo Interview Collection A",
+    "source": "Demo source — not verified",
+    "rights": { "status": "demo", "note": "Placeholder interview — demo content only." },
+    "summary": "This is a neutral placeholder record for an interview recording. Verified archival content will replace this.",
+    "keywords": ["interview", "video", "archive", "primary source", "placeholder"],
+    "date": null,
+    "isDemo": true,
+    "transcript": [
+      { "startSec": 0,   "endSec": 20,  "speaker": "Interviewer", "text": "This is sample interviewer text for demonstrating multi-speaker transcript display." },
+      { "startSec": 20,  "endSec": 60,  "speaker": "Subject",     "text": "This is sample subject response text. No real speaker attribution is made here." },
+      { "startSec": 60,  "endSec": 120, "speaker": "Interviewer", "text": "The transcript system supports multiple speakers with colour-coded labels." },
+      { "startSec": 120, "endSec": 240, "speaker": "Subject",     "text": "Each line links to its corresponding timecode in the recording." },
+      { "startSec": 240, "endSec": 600, "speaker": "Subject",     "text": "This section represents substantive interview content. Verified material to replace." },
+      { "startSec": 600, "endSec": 1560,"speaker": "Subject",     "text": "Remaining interview content placeholder. Verified archival interview to be added." }
+    ],
+    "chapters": [
+      { "startSec": 0,   "title": "Opening" },
+      { "startSec": 240, "title": "Main interview" },
+      { "startSec": 1200,"title": "Closing" }
+    ],
+    "related": { "documents": ["doc-004", "doc-005"], "photographs": ["doc-011"], "writings": ["doc-001"] },
+    "accessibility": { "captions": true, "audioDescription": false }
+  },
+  {
+    "id": "av-007",
+    "title": "Sample interview recording 02",
+    "kind": "interview",
+    "mediaType": "video",
+    "src": null,
+    "poster": null,
+    "durationSec": 1020,
+    "language": "mr",
+    "collection": "Demo Interview Collection B",
+    "source": "Demo source — not verified",
+    "rights": { "status": "demo", "note": "Placeholder interview — demo content only." },
+    "summary": "हे मुलाखत रेकॉर्डिंगसाठी एक तटस्थ प्लेसहोल्डर रेकॉर्ड आहे.",
+    "keywords": ["interview", "marathi", "archive", "video", "placeholder"],
+    "date": null,
+    "isDemo": true,
+    "transcript": [
+      { "startSec": 0,   "endSec": 30,  "text": "हे सिंक्रोनाइझ्ड रीडिंग प्रदर्शनासाठी नमुना ट्रान्सक्रिप्ट मजकूर आहे।" },
+      { "startSec": 30,  "endSec": 120, "text": "अभिलेखागार प्रणाली ट्रान्सक्रिप्ट ओळींना ऑडिओशी जोडते।" },
+      { "startSec": 120, "endSec": 1020,"text": "हे प्लेसहोल्डर सामग्री आहे. सत्यापित आर्काइव्ह सामग्री नंतर जोडली जाईल।" }
+    ],
+    "chapters": [
+      { "startSec": 0,   "title": "प्रारंभ" },
+      { "startSec": 300, "title": "मुख्य मुलाखत" }
+    ],
+    "related": { "documents": ["doc-006"], "photographs": [], "writings": [] },
+    "accessibility": { "captions": false, "audioDescription": false }
+  },
+  {
+    "id": "av-008",
+    "title": "Sample audio record 01",
+    "kind": "audio",
+    "mediaType": "audio",
+    "src": null,
+    "poster": null,
+    "durationSec": 312,
+    "language": "gu",
+    "collection": "Demo Audio Collection C",
+    "source": "Demo source — not verified",
+    "rights": { "status": "demo", "note": "Placeholder audio — demo content only." },
+    "summary": "આ ઑડિઓ અભિલેખ માટે એક તટસ્થ પ્લેસહોલ્ડર રેકોર્ડ છે.",
+    "keywords": ["audio", "gujarati", "archive", "recording", "placeholder"],
+    "date": null,
+    "isDemo": true,
+    "transcript": [
+      { "startSec": 0,   "endSec": 30,  "text": "આ સિંક્રોનાઇઝ્ડ વાંચન પ્રદર્શન માટે નમૂના ટ્રાન્સક્રિપ્ટ ટેક્સ્ટ છે।" },
+      { "startSec": 30,  "endSec": 120, "text": "આ ઑડિઓ અભિલેખ સંગ્રહ ભાગ છે. ચકાસાયેલ સામગ્રી પછીથી ઉમેરવામાં આવશે।" },
+      { "startSec": 120, "endSec": 312, "text": "બાકીની સામગ્રી પ્લેસહોલ્ડર. ફક્ત પ્રદર્શન।" }
+    ],
+    "chapters": [
+      { "startSec": 0,   "title": "Introduction" },
+      { "startSec": 120, "title": "Main content" }
+    ],
+    "related": { "documents": ["doc-014"], "photographs": [], "writings": [] },
+    "accessibility": { "captions": false, "audioDescription": false }
+  }
+]

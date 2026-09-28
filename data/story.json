@@ -1,0 +1,127 @@
+[
+  {
+    "id": "early-life",
+    "number": 1,
+    "title": "Early Life",
+    "subtitle": "Origins and formative years",
+    "eventIds": ["evt-01"],
+    "narrative": {
+      "status": "placeholder",
+      "paragraphs": [],
+      "sourceNote": ""
+    },
+    "visual": {
+      "imageSrc": null,
+      "imageCredit": null,
+      "mood": "dawn"
+    },
+    "audio": { "src": null },
+    "evidence": {
+      "documents": ["doc-001"],
+      "speeches": [],
+      "photographs": [],
+      "media": []
+    },
+    "accent": "ivory"
+  },
+  {
+    "id": "education",
+    "number": 2,
+    "title": "Education",
+    "subtitle": "Scholarship, inquiry, and formation",
+    "eventIds": ["evt-02", "evt-03"],
+    "narrative": {
+      "status": "placeholder",
+      "paragraphs": [],
+      "sourceNote": ""
+    },
+    "visual": {
+      "imageSrc": null,
+      "imageCredit": null,
+      "mood": "study"
+    },
+    "audio": { "src": null },
+    "evidence": {
+      "documents": ["doc-002", "doc-007"],
+      "speeches": [],
+      "photographs": [],
+      "media": ["av-003"]
+    },
+    "accent": "azure"
+  },
+  {
+    "id": "social-public-work",
+    "number": 3,
+    "title": "Social & Public Work",
+    "subtitle": "Advocacy, satyagraha, and public discourse",
+    "eventIds": ["evt-04", "evt-05", "evt-06", "evt-07"],
+    "narrative": {
+      "status": "placeholder",
+      "paragraphs": [],
+      "sourceNote": ""
+    },
+    "visual": {
+      "imageSrc": null,
+      "imageCredit": null,
+      "mood": "assembly"
+    },
+    "audio": { "src": null },
+    "evidence": {
+      "documents": ["doc-004", "doc-005"],
+      "speeches": ["doc-004"],
+      "photographs": ["doc-010"],
+      "media": ["av-001", "av-006"]
+    },
+    "accent": "terracotta"
+  },
+  {
+    "id": "constitutional-journey",
+    "number": 4,
+    "title": "Constitutional Journey",
+    "subtitle": "Drafting the foundation of a republic",
+    "eventIds": ["evt-08", "evt-09", "evt-10", "evt-11"],
+    "narrative": {
+      "status": "placeholder",
+      "paragraphs": [],
+      "sourceNote": ""
+    },
+    "visual": {
+      "imageSrc": null,
+      "imageCredit": null,
+      "mood": "light"
+    },
+    "audio": { "src": null },
+    "evidence": {
+      "documents": ["doc-008", "doc-009"],
+      "speeches": ["doc-005"],
+      "photographs": [],
+      "media": ["av-003", "av-005"]
+    },
+    "accent": "gold"
+  },
+  {
+    "id": "legacy",
+    "number": 5,
+    "title": "Legacy",
+    "subtitle": "A life that continues to shape ideas",
+    "eventIds": ["evt-12", "evt-13"],
+    "narrative": {
+      "status": "placeholder",
+      "paragraphs": [],
+      "sourceNote": ""
+    },
+    "visual": {
+      "imageSrc": null,
+      "imageCredit": null,
+      "mood": "stillness"
+    },
+    "audio": { "src": null },
+    "evidence": {
+      "documents": ["doc-001", "doc-003"],
+      "speeches": [],
+      "photographs": ["doc-011"],
+      "media": ["av-005"]
+    },
+    "accent": "gold"
+  }
+]

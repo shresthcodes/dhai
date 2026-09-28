@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <defs>
+    <filter id="paper">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+      <feBlend in="SourceGraphic" in2="grey" mode="multiply" result="blend"/>
+      <feComponentTransfer in="blend">
+        <feFuncR type="linear" slope="0.92" intercept="0.06"/>
+        <feFuncG type="linear" slope="0.88" intercept="0.05"/>
+        <feFuncB type="linear" slope="0.76" intercept="0.04"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="turbulence" baseFrequency="0.9" numOctaves="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <!-- Paper background -->
+  <rect width="800" height="1100" fill="#EDE4CE" filter="url(#paper)"/>
+  <!-- Aged stains -->
+  <ellipse cx="680" cy="120" rx="60" ry="45" fill="#C8A96E" opacity="0.18"/>
+  <ellipse cx="90" cy="950" rx="45" ry="35" fill="#A08050" opacity="0.12"/>
+  <ellipse cx="400" cy="550" rx="120" ry="80" fill="#D4B878" opacity="0.07"/>
+  <!-- Page border -->
+  <rect x="50" y="50" width="700" height="1000" fill="none" stroke="#8B7355" stroke-width="1.5" opacity="0.4"/>
+  <rect x="55" y="55" width="690" height="990" fill="none" stroke="#8B7355" stroke-width="0.5" opacity="0.2"/>
+  <!-- Demo watermark diagonal -->
+  <text x="400" y="580" font-family="serif" font-size="72" fill="#8B7355" opacity="0.06" text-anchor="middle" transform="rotate(-35 400 580)" letter-spacing="8">SAMPLE DOCUMENT</text>
+  <!-- Title block -->
+  <text x="400" y="130" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#2C1A0E" text-anchor="middle" filter="url(#grain)">DEMO ARCHIVAL DOCUMENT</text>
+  <text x="400" y="158" font-family="Georgia, serif" font-size="14" fill="#4A3520" text-anchor="middle">Prototype Demonstration — Sample Scan</text>
+  <line x1="90" y1="172" x2="710" y2="172" stroke="#6B5035" stroke-width="1" opacity="0.5"/>
+  <!-- Body text lines — simulating typewriter -->
+  <text x="90" y="210" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05" filter="url(#grain)">This is sample text for demonstrating OCR and reading</text>
+  <text x="90" y="232" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05">features of the archive system.</text>
+  <text x="90" y="265" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05">The archive extracts text from scanned documents using</text>
+  <text x="90" y="287" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05">optical character recognition technology.</text>
+  <text x="90" y="320" font-family="'Courier New', monospace" font-size="13.5" fill="#200F02">This placeholder paragraph represents the kind of content</text>
+  <text x="90" y="342" font-family="'Courier New', monospace" font-size="13.5" fill="#200F02">that would appear after processing a real archival document.</text>
+  <text x="90" y="364" font-family="'Courier New', monospace" font-size="13.5" fill="#200F02">Verified text will replace this content.</text>
+  <text x="90" y="397" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05">Paragraph two contains additional sample sentences. Each</text>
+  <text x="90" y="419" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05">sentence demonstrates multi-line extracted text handling.</text>
+  <text x="90" y="441" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05">Word confidence values are shown for each token.</text>
+  <text x="90" y="474" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05">The document management system provides tools for curators</text>
+  <text x="90" y="496" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05">to review and validate OCR output before publication.</text>
+  <text x="90" y="529" font-family="'Courier New', monospace" font-size="13.5" fill="#2A1208">Rights and equality are among the topics indexed in</text>
+  <text x="90" y="551" font-family="'Courier New', monospace" font-size="13.5" fill="#2A1208">the archive for discovery and research purposes.</text>
+  <text x="90" y="573" font-family="'Courier New', monospace" font-size="13.5" fill="#2A1208">Constitutional records form a significant collection.</text>
+  <text x="90" y="606" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05">Education and scholarship materials are preserved alongside</text>
+  <text x="90" y="628" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05">primary sources and published works.</text>
+  <text x="90" y="661" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05">This is the final paragraph of the sample page. The system</text>
+  <text x="90" y="683" font-family="'Courier New', monospace" font-size="13.5" fill="#1A0F05">continues to the next page of the document.</text>
+  <!-- Footer -->
+  <line x1="90" y1="980" x2="710" y2="980" stroke="#6B5035" stroke-width="0.8" opacity="0.4"/>
+  <text x="400" y="1005" font-family="Georgia, serif" font-size="11" fill="#6B5035" text-anchor="middle">Synthetic demo scan — DHAI Prototype · Page 1</text>
+  <text x="400" y="1022" font-family="Georgia, serif" font-size="10" fill="#8B7355" text-anchor="middle" opacity="0.6">Smart India Hackathon 2026 · Demonstration data only</text>
+</svg>

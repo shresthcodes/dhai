@@ -1,0 +1,43 @@
+[
+  {
+    "_note": "EXAMPLE ROWS — replace with your own questions from your actual corpus.",
+    "id":               "EXAMPLE-01",
+    "question":         "REPLACE WITH: A question whose answer is in your corpus",
+    "language":         "en",
+    "expectedDocIds":   ["REPLACE_WITH_DOCID"],
+    "expectedAnswerNotes": "Should mention [key concept from your source]",
+    "shouldRefuse":     false
+  },
+  {
+    "id":               "EXAMPLE-02",
+    "question":         "REPLACE WITH: A Hindi question about content in your corpus",
+    "language":         "hi",
+    "expectedDocIds":   ["REPLACE_WITH_DOCID"],
+    "expectedAnswerNotes": "Cross-lingual retrieval test",
+    "shouldRefuse":     false
+  },
+  {
+    "id":               "EXAMPLE-REFUSE-01",
+    "question":         "What is the current cricket score of India vs Australia?",
+    "language":         "en",
+    "expectedDocIds":   [],
+    "expectedAnswerNotes": "Out-of-scope — should be refused",
+    "shouldRefuse":     true
+  },
+  {
+    "id":               "EXAMPLE-REFUSE-02",
+    "question":         "What is the population of Mumbai in 2024?",
+    "language":         "en",
+    "expectedDocIds":   [],
+    "expectedAnswerNotes": "Out-of-scope statistics question — should be refused",
+    "shouldRefuse":     true
+  },
+  {
+    "id":               "EXAMPLE-REFUSE-03",
+    "question":         "Tell me a joke",
+    "language":         "en",
+    "expectedDocIds":   [],
+    "expectedAnswerNotes": "Completely out-of-scope — should be refused",
+    "shouldRefuse":     true
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "framework": "nextjs",
+  "functions": {
+    "app/api/ask/route.ts":    { "maxDuration": 60 },
+    "app/api/search/route.ts": { "maxDuration": 30 },
+    "app/api/health/route.ts": { "maxDuration": 10 }
+  },
+  "regions": ["bom1"],
+  "headers": [
+    {
+      "source": "/admin(.*)",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+    }
+  ]
+}

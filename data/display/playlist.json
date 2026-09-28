@@ -1,0 +1,19 @@
+[
+  {
+    "id": "pl-default",
+    "name": "Constitutional Journey (demo)",
+    "loop": true,
+    "scenes": [
+      { "id": "sc-01", "type": "chapter-title",       "durationSec": 12, "chapterId": "constitutional-journey" },
+      { "id": "sc-02", "type": "timeline-highlight",  "durationSec": 18, "eventId": "evt-08" },
+      { "id": "sc-03", "type": "timeline-highlight",  "durationSec": 18, "eventId": "evt-09" },
+      { "id": "sc-04", "type": "archive-spotlight",   "durationSec": 20, "assetId": "doc-008" },
+      { "id": "sc-05", "type": "timeline-highlight",  "durationSec": 18, "eventId": "evt-10" },
+      { "id": "sc-06", "type": "timeline-highlight",  "durationSec": 18, "eventId": "evt-11" },
+      { "id": "sc-07", "type": "archive-spotlight",   "durationSec": 20, "assetId": "doc-009" },
+      { "id": "sc-08", "type": "ask-demo",            "durationSec": 25, "question": "What archival material relates to constitutional debates?" },
+      { "id": "sc-09", "type": "qr-handoff",          "durationSec": 15, "publicPath": "/archive" },
+      { "id": "sc-10", "type": "explore-menu",        "durationSec": 12 }
+    ]
+  }
+]
