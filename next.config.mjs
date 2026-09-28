@@ -15,6 +15,26 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ["lucide-react", "framer-motion"],
   },
+  webpack: (config, { isServer }) => {
+    // @huggingface/transformers uses WASM — exclude from webpack bundling
+    // It's loaded lazily at runtime only when EMBEDDINGS_PROVIDER=local
+    config.externals = config.externals || [];
+    if (isServer) {
+      if (Array.isArray(config.externals)) {
+        config.externals.push("@huggingface/transformers");
+      }
+    }
+    // Suppress ort-wasm warnings
+    config.resolve = config.resolve || {};
+    config.resolve.alias = {
+      ...(config.resolve.alias || {}),
+      "ort-wasm-simd-threaded.wasm": false,
+      "ort-wasm-simd.wasm": false,
+      "ort-wasm-threaded.wasm": false,
+      "ort-wasm.wasm": false,
+    };
+    return config;
+  },
   async headers() {
     return [
       {
